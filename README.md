@@ -4,7 +4,7 @@ This R code simulates random gene loss as postulated for the yeast genome.
 
 ### Description
 
-This code simulates two species that derive from the yeast whole genome duplication event.  The ancestral yeast genome is duplicated, then genes are lost (deleted) randomly until only the number of genes observed in the modern yeast genome remain.  The model determines all gene pairs in the two genomes (excluding genes that remain as duplicates) and calculates the number of gene pairs that are shared between the two species.
+This code simulates two species that derive from the yeast whole genome duplication (WGD) event.  The ancestral yeast genome is duplicated, then genes are lost (deleted) randomly until only the number of genes observed in the modern yeast genome remain.  The model determines all gene pairs in the two genomes (excluding genes that remain as duplicates) and calculates the number of gene pairs that are shared between the two species.
 
 The simulation code is written in R, where it requires only the base installation, and is all contained in a single code file, [gene_ordering.R](https://github.com/mpcox/gene_ordering/blob/master/gene_ordering.R).
 
@@ -17,7 +17,7 @@ There are only five input parameters:
 -    The number of iterations (i.e., the number of simulation tests you want to perform) [default: 100]
 -    The number of genes in the ancestral yeast genome [default: 4943]
 -    The number of genes in the modern yeast genome (post-duplication and after gene loss) [default: 5500]
--    The number of chromosomes in the yeast genome [default: 8]
+-    The number of chromosomes in the yeast pre-WGD genome [default: 8]
 -    The output filename [default: outfile.txt]
 
 
