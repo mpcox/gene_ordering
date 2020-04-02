@@ -6,7 +6,7 @@ This R code simulates random gene loss as postulated for the yeast genome.
 
 This code simulates two species that derive from the yeast whole genome duplication event.  The ancestral yeast genome is duplicated, then genes are lost (deleted) randomly until only the number of genes observed in the modern yeast genome remain.  The model determines all gene pairs in the two genomes (excluding genes that remain as duplicates) and calculates the number of gene pairs that are shared between the two species.
 
-The simulation code is written in R, where it requires only the base installation, and is all contained in a single code file, gene_ordering.R.
+The simulation code is written in R, where it requires only the base installation, and is all contained in a single code file, [gene_ordering.R](https://github.com/mpcox/gene_ordering/blob/master/gene_ordering.R).
 
 Note that the code is not parallelized.  However, the simulations are independent and therefore well suited to being run in an ‘embarrassingly parallel’ setting (i.e., running multiple jobs and manually concatenating the output files).
 
@@ -41,8 +41,7 @@ The program also produces a histogram of the number of gene pairs shared between
 
 ### Worked example
 
-A worked example is shown in the tab-delimited file, example_outfile.tab.
-
+A worked example is shown in the tab-delimited file, [example_outfile.tab](https://github.com/mpcox/gene_ordering/blob/master/example_outfile.tab).
 
 Murray Cox
 
